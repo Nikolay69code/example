@@ -1,13 +1,13 @@
 document.addEventListener('DOMContentLoaded', () => {
     const cardsArray = [
-        { name: 'card1', img: 'images/card1.png' },
-        { name: 'card2', img: 'images/card2.png' },
-        { name: 'card3', img: 'images/card3.png' },
-        { name: 'card4', img: 'images/card4.png' },
-        { name: 'card1', img: 'images/card1.png' },
-        { name: 'card2', img: 'images/card2.png' },
-        { name: 'card3', img: 'images/card3.png' },
-        { name: 'card4', img: 'images/card4.png' }
+        { name: 'card1', img: 'images/card1.jpg' },
+        { name: 'card2', img: 'images/card2.jpg' },
+        { name: 'card3', img: 'images/card3.jpg' },
+        { name: 'card4', img: 'images/card4.jpg' },
+        { name: 'card1', img: 'images/card1.jpg' },
+        { name: 'card2', img: 'images/card2.jpg' },
+        { name: 'card3', img: 'images/card3.jpg' },
+        { name: 'card4', img: 'images/card4.jpg' }
     ];
 
     cardsArray.sort(() => 0.5 - Math.random());
